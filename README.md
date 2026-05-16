@@ -16,7 +16,7 @@ Ideally, certain technology stacks (without necessarily naming which, this is up
 
 # TODO
 
-* Implement more trivial PoWs efficiently beyond current SHA-NI implementation. (AVX2 for instance)
+* Implement more variants of the PoW efficiently beyond current SHA-NI implementation. (AVX2 for instance)
 
 * Implement loading from endpoint cache upon bootup
 
