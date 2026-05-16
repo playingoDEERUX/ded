@@ -1,6 +1,6 @@
-# Decentralized Endpoint Discovery (PoC)
+# Decentralized Endpoint Discovery
 
-A PoW (Proof of Work)-assisted, PoA (Proof of Authority) driven decentralized discovery algorithm based on DGA generation + IP/8 fallback scanning hybrid.
+PROOF OF CONCEPT: A PoW (Proof of Work)-assisted, PoA (Proof of Authority) driven decentralized discovery algorithm based on DGA generation + IP/8 fallback scanning hybrid.
 
 The way it works: N amount of deterministic domains are generated every month. These are probed first, assuming no endpoint is discovered there, it'll scan further with an endpoint list based on a hardcoded FIRST_OCTET using a /8 IP pool.
 
