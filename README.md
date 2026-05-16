@@ -28,4 +28,4 @@ Ideally, certain technology stacks (without necessarily naming which, this is up
 
 Post-discovery communication should be secured cryptographically as well (since anyone who knows a bit more about networking, knows that the inherent nature of the internet is complete lack of confidentiality among other properties), but that's beyond the scope of this project.
 
-So far, just with the principle that is demonstrated in this project, you can achieve a high level of takedown-resistance and decentralization.
+So far, just with the principle that is demonstrated in this project, you can achieve a high level of takedown-resistance and decentralization. This project is mainly to demonstrate a principle in concept, not a fully geared-up product.
