@@ -31,7 +31,7 @@ Post-discovery communication should be secured cryptographically as well (since 
 So far, just with the principle that is demonstrated in this project, you can achieve a high level of takedown-resistance and decentralization. This project is mainly to demonstrate a principle in concept, not a fully geared-up product.
 
 # References
-RandomX: https://github.com/tevador/randomx
+RandomX (currently unused): https://github.com/tevador/randomx
 
 SHA256 (especially SHA-NI) implementations: https://github.com/bitcoin/bitcoin
 
