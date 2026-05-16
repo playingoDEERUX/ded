@@ -22,6 +22,6 @@ Ideally, certain technology stacks (without necessarily naming which, this is up
 
 * Misc. stuff, cleanups
 
-* RandomX PoW as an alternative, however, validating its PoW is quite slow for the authority side as well, therefore resorted to the conventional SHA256 PoW.
+* RandomX PoW as an alternative, however, validating its PoW is quite slow for the authority side as well, therefore resorted to the conventional SHA256 PoW. Requires an ASIC for attackers to even just get back to even playing field, and even then this design is supposed to be highly robust.
 
 Post-discovery communication should be secured cryptographically as well (since anyone who knows a bit more about networking, knows that the inherent nature of the internet is complete lack of confidentiality among other properties), but that's beyond the scope of this project.
