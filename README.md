@@ -1,4 +1,4 @@
-# Decentralized Endpoint Discovery
+# Decentralized Endpoint Discovery (PoC)
 
 A PoW (Proof of Work)-assisted, PoA (Proof of Authority) driven decentralized discovery algorithm based on DGA generation + IP/8 fallback scanning hybrid.
 
