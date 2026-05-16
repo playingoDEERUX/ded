@@ -32,5 +32,7 @@ So far, just with the principle that is demonstrated in this project, you can ac
 
 # References
 RandomX: https://github.com/tevador/randomx
+
 SHA256 (especially SHA-NI) implementations: https://github.com/bitcoin/bitcoin
+
 ENet for cross-platform socket wrappers: https://github.com/lsalzman/enet
