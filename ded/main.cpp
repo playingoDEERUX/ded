@@ -280,20 +280,16 @@ void solve_pow_shani(int num_threads = std::thread::hardware_concurrency()) {
 
                 auto h = Hash2PowInputs(pow);
 
+                int64_t expected = -1;
+
                 if (h.hashes[0].meets_difficulty_clz(POW_DIFFICULTY_BITS))
                 {
-                    int64_t expected = -1;
-                    if (found_nonce.compare_exchange_strong(expected, nonce, std::memory_order_relaxed))
-                        break;
-                    
+                    found_nonce.compare_exchange_strong(expected, nonce, std::memory_order_relaxed);
                     break;
                 }
                 else if (h.hashes[1].meets_difficulty_clz(POW_DIFFICULTY_BITS))
                 {
-                    int64_t expected = -1;
-                    if (found_nonce.compare_exchange_strong(expected, nonce + 1, std::memory_order_relaxed))
-                        break;
-
+                    found_nonce.compare_exchange_strong(expected, nonce + 1, std::memory_order_relaxed);
                     break;
                 }
 
