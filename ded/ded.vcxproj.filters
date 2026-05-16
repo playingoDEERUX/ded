@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\host.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA256d.cpp">
+      <Filter>src\crypto</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\enet\callbacks.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\list.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\enet.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\protocol.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\time.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\types.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\unix.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\utility.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\win32.h">
+      <Filter>src\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA256d.hpp">
+      <Filter>src\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="IPAddress.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ded_config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="libsodium\include\sodium.h">
+      <Filter>src\crypto\libsodium</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{e451312a-635b-44ba-a62a-af58ceae490a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\enet">
+      <UniqueIdentifier>{36d4ee49-5eda-4b99-bbd9-aa89a4d5ed00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\crypto">
+      <UniqueIdentifier>{edb3df47-27c9-4343-b202-b9261c956241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\crypto\libsodium">
+      <UniqueIdentifier>{8b857e4a-84c4-43ba-9a92-1b3260f8c5e5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

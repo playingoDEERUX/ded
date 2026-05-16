@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{1f94f072-b4e0-4b0e-a43e-b93635ad8480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include">
+      <UniqueIdentifier>{bae252a1-3e37-4190-8af7-d14194df85e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\include\enet">
+      <UniqueIdentifier>{a614aed8-59f2-4d02-bbc2-c664dc95b2d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\enet">
+      <UniqueIdentifier>{c7f2d30c-68e8-45e3-8497-e2f60a1dc5ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\crypto">
+      <UniqueIdentifier>{1cd93613-2a53-4d64-abcc-106bbb7be279}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\enet\callbacks.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\enet.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\list.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\protocol.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\time.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\types.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\unix.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\utility.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\enet\win32.h">
+      <Filter>src\include\enet</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA256d.hpp">
+      <Filter>src\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="ded_config.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="enet\host.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\list.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\packet.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\peer.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\protocol.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\unix.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\win32.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\callbacks.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="enet\compress.c">
+      <Filter>src\enet</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA256d.cpp">
+      <Filter>src\crypto</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
