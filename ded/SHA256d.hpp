@@ -516,7 +516,7 @@ inline void PadHash32ToBlock64(unsigned char* block, const unsigned char* hash32
     block[63] = bit_len & 0xFF;
 }
 
-// quadruple sha256d so we're safe from commercial ASICs unless they spend dozens of $ to make one just for this, but even then it wouldn't matter too much, would just put it back to even playing field:
+// quadruple sha256 (double sha256d/sha256q) so we're safe from commercial ASICs unless they spend dozens of $ to make one just for this, but even then it wouldn't matter too much, would just put it back to even playing field:
 inline SHA256d8_Hash Hash8PowInputs(const POW_Input* pow)
 {
     SHA256d8_Hash result;
